@@ -4,7 +4,7 @@ import plotly.express as px
 
 # Leitura do arquivo CSV e limpeza dos dados
 df = pd.read_csv(
-    'C:/Users/ALMOX-3/Documents/Projeto_Estoque/Painel Gerencial/database/MOVIMENTOS 08-24.csv', 
+    'database/MOVIMENTOS 08-24.csv', 
     sep=';', 
     encoding='latin1'
 )
